@@ -1456,4 +1456,57 @@ PUSH TO GIT
 
 ---
 
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Push obs_portable_config to GitHub"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\fitxategiak\\aplikazioak\\_nire_tresnak\\obs_portable_hardener\\harden_obs_portable.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\fitxategiak\\aplikazioak\\_nire_tresnak\\obs_portable_hardener\\harden_obs_portable.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Sync harden_obs_portable.ps1 to obs_studio"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Commit and push obs_portable_hardener updates"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Verify and push config/obs-studio"
+
+---
+
+### 🤖 Assistant
+Both your configuration and the hardening harness are committed and pushed to GitHub:
+
+### 1. [`Uplus221E/obs_portable_config`](https://github.com/Uplus221E/obs_portable_config) *(Private Repository)*
+* **Pushed**: Your complete, live portable OBS configuration.
+* **Included**:
+  * The active **`2560`** profile configured for **2560x1440 (1440p QHD @ 60 FPS)**.
+  * The restored **NVENC AV1 (CQP 30, Preset P7)** recording encoder pipeline.
+  * All scene collections ([`Untitled.json`](file:///C:/fitxategiak/aplikazioak/tresnak/obs_studio/config/obs-studio/basic/scenes/Untitled.json)), multi-RTMP targets, and Twitch configs.
+* *(Kept strictly private to protect your Twitch stream keys).*
+
+### 2. [`Uplus221E/obs_portable_hardener`](https://github.com/Uplus221E/obs_portable_hardener) *(Public Tool Repository)*
+* **Pushed**: Updated [`harden_obs_portable.ps1`](file:///C:/fitxategiak/aplikazioak/_nire_tresnak/obs_portable_hardener/harden_obs_portable.ps1) with automated rules to enforce the `2560x1440` resolution and auto-heal the `NVENC AV1 CQP 30` encoder if a clean Windows install ever resets it.
+* **Profile**: Linked and categorized on your GitHub profile README ([`Uplus221E/Uplus221E`](https://github.com/Uplus221E/Uplus221E)).
+
+---
+
 *(Note: Archived for offline reference in `obs_portable_hardener`. Unabridged raw log available in `antigravity_archive`.)*
