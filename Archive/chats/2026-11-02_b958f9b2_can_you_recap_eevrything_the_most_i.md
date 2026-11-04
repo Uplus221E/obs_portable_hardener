@@ -2820,4 +2820,88 @@ can we just make it the default - so we have an auto vaulter
 
 ---
 
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check test_hidden_archiver.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\Users\\shaman\\.gemini\\config\\GEMINI.md"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Read test_hidden_archiver.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check git and python processes"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Clean up test files"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Run STATUS_AUTO_VAULTER.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\Saved\\Logs\\auto_vaulter.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check Application Event Log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Test launch of auto_vaulter with PassThru"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Debug PID retrieval in STATUS_AUTO_VAULTER"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Test Start-Process with WindowStyle Hidden"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check PID 21976 after 10s"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\Saved\\Logs\\auto_vaulter.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Run auto_vaulter and capture stderr/stdout"
+
+---
+
 *(Note: Archived for offline reference in `obs_portable_hardener`. Unabridged raw log available in `antigravity_archive`.)*
