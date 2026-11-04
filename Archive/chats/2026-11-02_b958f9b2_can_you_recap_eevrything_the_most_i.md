@@ -2694,4 +2694,130 @@ can we just make it the default - so we have an auto vaulter
 
 ---
 
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\Saved\\Logs\\auto_vaulter.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check python and git processes"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check git and python processes again"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\Users\\shaman\\.gemini\\config\\rules\\autonomous-decisions.md"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check python and git processes"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\Saved\\Logs\\auto_vaulter.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\Saved\\Logs\\auto_vaulter.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Run STATUS_AUTO_VAULTER.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Run DISABLE_AUTO_VAULTER.ps1 to test clean termination"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Verify stopped status"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Enable Auto-Vaulter daemon"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check Auto-Vaulter status"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check process 17608"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "List 247_agent files"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\server_setup\\watch_for_storm.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Test Start-Process environment"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check Logs folder"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\Saved\\Logs\\auto_vaulter.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check PID 17608 via WMI"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Test Write-Host in hidden window"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Test Invoke-Archiver in hidden process"
+
+---
+
 *(Note: Archived for offline reference in `obs_portable_hardener`. Unabridged raw log available in `antigravity_archive`.)*
