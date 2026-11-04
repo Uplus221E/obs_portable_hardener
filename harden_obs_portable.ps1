@@ -111,8 +111,25 @@ if (Test-Path $p2560) {
     $c = $c -replace 'FilePath=.*', "FilePath=D:/OBS_Recordings/Shorts_Raw"
     $c = $c -replace 'RecFilePath=.*', "RecFilePath=D:/OBS_Recordings/Shorts_Raw"
     $c = $c -replace 'FFFilePath=.*', "FFFilePath=D:/OBS_Recordings/Shorts_Raw"
+    $c = $c -replace 'BaseCX=.*', "BaseCX=2560"
+    $c = $c -replace 'BaseCY=.*', "BaseCY=1440"
+    $c = $c -replace 'OutputCX=.*', "OutputCX=2560"
+    $c = $c -replace 'OutputCY=.*', "OutputCY=1440"
+    $c = $c -replace 'RecEncoder=obs_x264', "RecEncoder=obs_nvenc_av1_tex"
+    $c = $c -replace 'StreamEncoder=x264', "StreamEncoder=nvenc"
     [System.IO.File]::WriteAllText((Resolve-Path $p2560), $c, [System.Text.Encoding]::UTF8)
-    Write-Host "  [ok] Profile 2560 output paths updated to D:/OBS_Recordings/Shorts_Raw" -ForegroundColor Gray
+    Write-Host "  [ok] Profile 2560 output paths & 2560x1440 resolution enforced" -ForegroundColor Gray
+}
+
+# 6b. Ensure NVENC AV1 recordEncoder settings in 2560 profile
+$recEncJson = Join-Path $ObsRoot "config\obs-studio\basic\profiles\2560\recordEncoder.json"
+if (Test-Path $recEncJson) {
+    $encContent = (Get-Content $recEncJson -Raw).Trim()
+    if ($encContent -eq "{}" -or [string]::IsNullOrWhiteSpace($encContent)) {
+        $av1Settings = '{"rate_control":"CQP","multipass":"fullres","cqp":30,"preset":"p7","bframe_ref_mode":1,"keyint_sec":2,"bf":4,"opts":"","target_quality":8}'
+        [System.IO.File]::WriteAllText((Resolve-Path $recEncJson), $av1Settings, [System.Text.Encoding]::UTF8)
+        Write-Host "  [+] Restored NVENC AV1 CQP 30 encoder in 2560 profile" -ForegroundColor Green
+    }
 }
 
 # 7. Ensure launcher wrapper exists
