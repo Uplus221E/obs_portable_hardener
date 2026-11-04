@@ -144,10 +144,10 @@ if (Test-Path $p2560) {
 $recEncJson = Join-Path $ObsRoot "config\obs-studio\basic\profiles\2560\recordEncoder.json"
 if (Test-Path $recEncJson) {
     $encContent = (Get-Content $recEncJson -Raw).Trim()
-    if ($encContent -eq "{}" -or [string]::IsNullOrWhiteSpace($encContent)) {
-        $av1Settings = '{"rate_control":"CQP","multipass":"qres","cqp":30,"preset":"p6","bframe_ref_mode":1,"keyint_sec":2,"bf":4,"opts":"","target_quality":8}'
+    if ($encContent -eq "{}" -or [string]::IsNullOrWhiteSpace($encContent) -or $encContent -match '"cqp":\s*30') {
+        $av1Settings = '{"rate_control":"CQP","multipass":"qres","cqp":32,"preset":"p6","bframe_ref_mode":1,"keyint_sec":2,"bf":4,"opts":"","target_quality":8}'
         [System.IO.File]::WriteAllText((Resolve-Path $recEncJson), $av1Settings, [System.Text.Encoding]::UTF8)
-        Write-Host "  [+] Restored NVENC AV1 CQP 30 encoder in 2560 profile" -ForegroundColor Green
+        Write-Host "  [+] Enforced NVENC AV1 CQP 32 encoder in 2560 profile" -ForegroundColor Green
     }
 }
 

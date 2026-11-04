@@ -21,7 +21,7 @@ Most guides recommend brute-forcing this with **50,000–80,000 Kbps CBR**, gene
 | Parameter | Hardened Value | Engineering Purpose |
 | :--- | :--- | :--- |
 | **Video Encoder** | `NVIDIA NVENC AV1` | Next-gen AV1 entropy coding with vastly superior efficiency over H.264/HEVC. Zero CPU load. |
-| **Rate Control** | **CQP (CQ Level 30)** | Pure quality-driven encoding. Zero bits wasted on idle/menu screens; scales bitrate dynamically during explosive teamfights. |
+| **Rate Control** | **CQP (CQ Level 32)** | Pure quality-driven encoding. Zero bits wasted on idle/menu screens; scales bitrate dynamically during explosive teamfights. (~1.6–2.2 GB/hr). |
 | **Tuning / Preset** | **P7: Slowest (Best Quality)** | Exploits dedicated GPU NVENC silicon for deepest search vector analysis without stealing rendering ticks from games. |
 | **Multipass Mode** | **Two Passes (Full Resolution)** | Secondary optimization pass across full canvas resolution, eliminating artifact haloing around nameplates and healthbars. |
 | **B-Frames** | **4 B-Frames** (`bf=4`, Ref Mode: 1) | Maximum compression on static map elements, lane minions, and repeated creep wave textures. |
