@@ -1532,4 +1532,55 @@ put readme on that public tool repository that its optimized settings for minimu
 
 ---
 
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Diff README.md"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Commit and push updated README to GitHub"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\fitxategiak\\aplikazioak\\_nire_tresnak\\Uplus221E\\README.md"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\fitxategiak\\aplikazioak\\_nire_tresnak\\Uplus221E\\README.md"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Commit and push Uplus221E profile README"
+
+---
+
+### 🤖 Assistant
+The [`README.md`](https://github.com/Uplus221E/obs_portable_hardener#readme) on your public repository **[`Uplus221E/obs_portable_hardener`](https://github.com/Uplus221E/obs_portable_hardener)** and your [Profile README](https://github.com/Uplus221E/Uplus221E) have been updated and pushed:
+
+### Added Section: *Visually Lossless Engine Optimization (WoW, League, Warcraft III)*
+
+1. **The Core Engineering Challenge Addressed**:
+   * Explains why RTS, MOBA, and MMO titles (*Warcraft III*, *League of Legends*, *World of Warcraft*) punish standard encoders (dense foliage/geometry pans, 40-man raid spell spam, 5v5 teamfight particle overlapping, and fine HUD/floating combat text).
+   * Highlights how conventional recommendations waste **50–80 Mbps CBR** generating bloated 20–40 GB files per session.
+
+2. **The Hardened AV1 Configuration Spec**:
+   * **NVIDIA NVENC AV1** (`obs_nvenc_av1_tex`): 8th-Gen GPU silicon encoding with zero CPU overhead.
+   * **CQP (CQ Level 30)**: Pure quality-driven rate control—zero bits wasted on idle/menu screens, dynamically allocating bandwidth only during chaotic combat spikes.
+   * **P7: Slowest (Best Quality)**: Maximum motion vector search depth and macroblock analysis.
+   * **Two Passes (Full Resolution)**: Eliminates compression halos around unit healthbars and floating combat text.
+   * **4 B-Frames (`bf=4`, Ref Mode: 1)**: Maximum compression on static map terrain, lane minions, and repetitive creep wave textures.
+   * **Result**: **Visually lossless 1440p / 1080p 60 FPS output at ~1.5–2.8 GB/hour** (~80% file size reduction).
+
+Both commits (`b161e93` and `8cc013f`) are live on GitHub.
+
+---
+
 *(Note: Archived for offline reference in `obs_portable_hardener`. Unabridged raw log available in `antigravity_archive`.)*
