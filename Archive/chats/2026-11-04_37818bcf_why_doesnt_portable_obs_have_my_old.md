@@ -1395,4 +1395,65 @@ set it for me
 
 ---
 
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check log encoder details"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Commit active profile setting to git"
+
+---
+
+### 🤖 Assistant
+The **`2560`** profile has now been fully configured and activated:
+
+1. **Resolution Set to 2560x1440 (1440p QHD)**:
+   * **Base (Canvas) Resolution**: `2560x1440`
+   * **Output (Scaled) Resolution**: `2560x1440`
+   * **Framerate**: `60 FPS`
+2. **Active Profile Switched**:
+   * Previously, the active profile was set to `1920` (which was forcing the 1080p canvas shown in your screenshot). It is now set to **`2560`**.
+3. **Verified in Engine Logs**:
+   ```text
+   base resolution:   2560x1440
+   output resolution: 2560x1440
+   Video Encoders:    NVIDIA NVENC AV1 / NVENC H.264
+   ```
+
+When you launch OBS now, you will be on the **`2560`** profile with your native **2560x1440** canvas and your restored **NVENC AV1 (CQP 30, P7)** recording pipeline.
+
+---
+
+### 👤 User
+PUSH TO GIT
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check remotes and status across repos"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Diff harden_obs_portable.ps1 files"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check if obs_portable_config exists on GitHub"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Create private obs_portable_config repository"
+
+---
+
 *(Note: Archived for offline reference in `obs_portable_hardener`. Unabridged raw log available in `antigravity_archive`.)*

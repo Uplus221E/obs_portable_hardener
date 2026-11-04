@@ -2538,4 +2538,82 @@ can we just make it the default - so we have an auto vaulter
 
 ---
 
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\Saved\\Logs\\auto_vaulter.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\auto_vaulter.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Run ENABLE_AUTO_VAULTER.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check status of auto vaulter"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Wait 12s and check auto vaulter status"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\Users\\shaman\\.gemini\\config\\rules\\autonomous-decisions.md"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Read pid file"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Inspect process 6576"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Inspect process 7084"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\Saved\\Logs\\auto_vaulter.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Find python.exe path"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Test python resolution under -NoProfile"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Test Invoke-Archiver directly"
+
+---
+
 *(Note: Archived for offline reference in `obs_portable_hardener`. Unabridged raw log available in `antigravity_archive`.)*
