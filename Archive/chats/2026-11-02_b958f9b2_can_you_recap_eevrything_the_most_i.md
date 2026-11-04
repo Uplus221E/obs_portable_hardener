@@ -2346,4 +2346,124 @@ can we just make it the default - so we have an auto vaulter
 
 ---
 
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\auto_vaulter.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\ENABLE_AUTO_VAULTER.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\ENABLE_AUTO_VAULTER.bat"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\DISABLE_AUTO_VAULTER.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\DISABLE_AUTO_VAULTER.bat"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\STATUS_AUTO_VAULTER.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\STATUS_AUTO_VAULTER.bat"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\.gitignore"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\README.md"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\archive_transcripts.py"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\archive_transcripts.py"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\STATE.md"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\STATE.md"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Run ENABLE_AUTO_VAULTER.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check Auto-Vaulter status"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Test ENABLE_AUTO_VAULTER idempotency"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check pid file content"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\Saved\\Logs\\auto_vaulter.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check process 21656"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Run auto_vaulter.ps1 in foreground to test"
+
+---
+
 *(Note: Archived for offline reference in `obs_portable_hardener`. Unabridged raw log available in `antigravity_archive`.)*
