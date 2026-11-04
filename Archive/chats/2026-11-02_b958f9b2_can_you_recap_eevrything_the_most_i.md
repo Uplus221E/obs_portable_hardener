@@ -2466,4 +2466,76 @@ can we just make it the default - so we have an auto vaulter
 
 ---
 
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\Saved\\Logs\\auto_vaulter.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Kill lingering auto_vaulter processes"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "List running powershell processes"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Clean up old log and pid file"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\auto_vaulter.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\ENABLE_AUTO_VAULTER.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Run ENABLE_AUTO_VAULTER.ps1"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check Auto-Vaulter status"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check processes 20964 and 9372"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\antigravity_archive\\Saved\\Logs\\auto_vaulter.log"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Run auto_vaulter.ps1 with try catch to capture errors"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Test auto_vaulter with executionpolicy bypass"
+
+---
+
 *(Note: Archived for offline reference in `obs_portable_hardener`. Unabridged raw log available in `antigravity_archive`.)*
