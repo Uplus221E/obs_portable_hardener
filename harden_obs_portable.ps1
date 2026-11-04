@@ -63,7 +63,7 @@ if (Test-Path $userIni) {
     }
 }
 
-# 5. Normalise audio devices in scenes to "default"
+# 5. Normalise audio devices in scenes to "default" and enforce 1440p native crop
 $sceneFile = Join-Path $ObsRoot "config\obs-studio\basic\scenes\Untitled.json"
 if (Test-Path $sceneFile) {
     $json = Get-Content $sceneFile -Raw -Encoding utf8 | ConvertFrom-Json
@@ -76,12 +76,31 @@ if (Test-Path $sceneFile) {
         $json.AuxAudioDevice1.settings.device_id = "default"
         $modified = $true
     }
+    if ($json.resolution.x -ne 2560 -or $json.resolution.y -ne 1440) {
+        $json.resolution.x = 2560
+        $json.resolution.y = 1440
+        $modified = $true
+    }
+    $scene = $json.sources | Where-Object { $_.name -eq "Scene" }
+    if ($scene) {
+        foreach ($item in $scene.settings.items) {
+            if ($item.name -eq "Pantaila-kaptura" -and ($item.bounds.x -ne 5120.0 -or $item.pos.x -ne -1280.0)) {
+                $item.bounds.x = 5120.0
+                $item.bounds.y = 1440.0
+                $item.pos.x = -1280.0
+                $item.pos.y = 0.0
+                $item.scale_ref.x = 2560.0
+                $item.scale_ref.y = 1440.0
+                $modified = $true
+            }
+        }
+    }
     if ($modified) {
         $updatedJson = ConvertTo-Json -InputObject $json -Depth 100
         [System.IO.File]::WriteAllText((Resolve-Path $sceneFile), $updatedJson, [System.Text.UTF8Encoding]::new($false))
-        Write-Host "  [+] Normalized audio endpoints to 'default' in scenes" -ForegroundColor Green
+        Write-Host "  [+] Normalized audio endpoints & enforced native 1440p 1:1 crop" -ForegroundColor Green
     } else {
-        Write-Host "  [ok] Scenes audio endpoints already set to 'default'" -ForegroundColor Gray
+        Write-Host "  [ok] Scenes audio and native 1440p crop in equilibrium" -ForegroundColor Gray
     }
 }
 
@@ -126,7 +145,7 @@ $recEncJson = Join-Path $ObsRoot "config\obs-studio\basic\profiles\2560\recordEn
 if (Test-Path $recEncJson) {
     $encContent = (Get-Content $recEncJson -Raw).Trim()
     if ($encContent -eq "{}" -or [string]::IsNullOrWhiteSpace($encContent)) {
-        $av1Settings = '{"rate_control":"CQP","multipass":"fullres","cqp":30,"preset":"p7","bframe_ref_mode":1,"keyint_sec":2,"bf":4,"opts":"","target_quality":8}'
+        $av1Settings = '{"rate_control":"CQP","multipass":"qres","cqp":30,"preset":"p6","bframe_ref_mode":1,"keyint_sec":2,"bf":4,"opts":"","target_quality":8}'
         [System.IO.File]::WriteAllText((Resolve-Path $recEncJson), $av1Settings, [System.Text.Encoding]::UTF8)
         Write-Host "  [+] Restored NVENC AV1 CQP 30 encoder in 2560 profile" -ForegroundColor Green
     }
