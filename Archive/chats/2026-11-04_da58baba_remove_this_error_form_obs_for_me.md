@@ -3229,4 +3229,258 @@ Your branch `mailengine` is now completely up to date with the remote repository
 
 ---
 
+### 👤 User
+whats that on the right corner
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check image dimensions"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Crop sections of image"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\Users\\shaman\\.gemini\\antigravity\\brain\\da58baba-c2ff-4e95-867a-6a6f04321596\\crop_top_right.png"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\Users\\shaman\\.gemini\\antigravity\\brain\\da58baba-c2ff-4e95-867a-6a6f04321596\\crop_mid_right.png"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\Users\\shaman\\.gemini\\antigravity\\brain\\da58baba-c2ff-4e95-867a-6a6f04321596\\crop_top_left.png"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Crop bottom right corner"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\Users\\shaman\\.gemini\\antigravity\\brain\\da58baba-c2ff-4e95-867a-6a6f04321596\\crop_bot_right.png"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Inspect ZeroMaint_Layout action bar logic"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Find ZeroMaint SavedVariables"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Read ZeroMaint.lua SavedVariables"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\wow_forever_config\\ZeroMaint_Layout.lua"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\wow_forever_config\\ZeroMaint_Layout.lua"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Crop center of image"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "C:\\Users\\shaman\\.gemini\\antigravity\\brain\\da58baba-c2ff-4e95-867a-6a6f04321596\\crop_center.png"
+
+---
+
+### 🤖 Assistant
+There are two UI elements visible on the right side of your screen:
+
+---
+
+### 1. In the Top-Right Corner: **Player Buff Frame (`BuffFrame`)**
+* **What they are**: Your active player buffs and aura timers.
+* **In the screenshot**: 
+  * The blue shield icon is **Frost Armor / Ice Armor** (with `27 m` remaining duration).
+  * The yellow/gold icon next to it is your **Food / Arcane Intellect** buff.
+* *Note: In standard WoW UI on ultra-wide monitors, Blizzard by default anchors player buffs to the top-right corner.*
+
+---
+
+### 2. On the Middle-Right Edge: **Right Action Bar (`MultiBarRight`)**
+* **What it is**: Your secondary utility action bar (arranged in a 2×6 button grid).
+* **In the screenshot**: It holds your utility spells, consumables, and items:
+  * **Top row**: Hearthstone, Food, Conjured Water, Frost Nova, etc.
+  * **Bottom row**: Blizzard, Arcane Explosion, Evocation, etc.
+
+---
+
+> [!TIP]
+> If you want to move or dock the top-right buffs inside your 16:9 center viewing zone, ZeroMaint can reposition them with:
+> ```text
+> /z move buffs -300 -15
+> ```
+> *(Or `/z centerbars on` / `/z centerbars off` to toggle your action bar layout).*
+
+---
+
+### 👤 User
+whats that on the left corner
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Crop top-left and bottom-left to inspect"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Crop top-left corner"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Inspect top-left pixel array"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Inspect top strip with PIL"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check horizontal extent of top strip"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "List active window titles"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Check if WoW is running"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Enlarge artifact strip"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Inspect left side regions"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Enlarge midleft"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Inspect zoomed pixels"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Inspect midleft box contents"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Crop floating icon"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Analyze icon pixels"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Enlarge smallbox"
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "Print ascii of smallbox"
+
+---
+
+### 🤖 Assistant
+There are two distinct things on the left side of your screen:
+
+---
+
+### 1. If you mean the Multi-Colored Static Bar at the VERY Top-Left Corner:
+Right at `(0, 0)` along the top edge, there is a band of **rainbow / multi-colored static noise pixels**. 
+
+This is caused by one of two things:
+
+* **Primary Cause: VRAM Memory Clock Offset (+300 MHz)**
+  * When mobile GDDR6 memory is pushed past its stable threshold, the frame buffer memory controller fails to flush clean scanlines at the scanout origin `(0, 0)`. It produces this exact "sparkle / snow / corrupted scanline" band.
+  * **Test in 5 seconds**: Open G-Helper, drop **Memory Clock Offset** from `+300 MHz` down to **`+100 MHz`** (or `0 MHz`), and tab back into WoW. If the static disappears, that confirms your GPU's VRAM silicon wants a slightly milder offset.
+* **Secondary Cause: Windows 11 MPO / Windowed Optimizations**
+  * In 32:9 super ultra-wide resolutions (5120x1440), Windows 11's Desktop Window Manager (DWM) Multi-Plane Overlay occasionally leaves a 1-to-2 pixel compositor seam at the top-left boundary of borderless windows. Pressing `Alt + Enter` twice to toggle display mode flushes it.
+
+---
+
+### 2. If you mean the Small Dark Square Box floating to the Left of your Character Frame:
+At roughly `(X: -40, Y: -20)` to the left of your character portrait, there is a floating square action icon with a curved weapon icon inside.
+
+* **What it is**: That is Blizzard's **Stance Bar / Pet Bar / Wand "Shoot" Button** (or an unanchored slot from `MultiBarBottomLeft` / `MultiBarBottomRight` during layout initialization).
+* **How to snap it or check it**:
+  * Type `/z debug` or `/z move` in chat to see which frame handle owns that coordinate.
+  * If it's an action button you don't want floating there, typing `/z reset` will restore clean default anchoring.
+
+---
+
+### Next Step:
+Check G-Helper first: drop **Memory Clock Offset to `+100 MHz`**. Does that top-left colored pixel strip disappear immediately?
+
+---
+
 *(Note: Archived for offline reference in `obs_portable_hardener`. Unabridged raw log available in `antigravity_archive`.)*
