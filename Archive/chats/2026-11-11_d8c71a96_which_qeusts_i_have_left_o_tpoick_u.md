@@ -25694,4 +25694,51 @@ If you switched to Procreate, the settings are located here:
 
 ---
 
+### 👤 User
+all of this jsut flat textures? im on lwo settings, on high the same?
+
+---
+
+### 🤖 Assistant
+**Actions Executed:**
+- `tool`: "c:\\fitxategiak\\aplikazioak\\_nire_tresnak\\wow_forever_config\\STATE.md"
+
+---
+
+### 🤖 Assistant
+**YES! 100% IDENTICAL ON HIGH / ULTRA!**
+
+What you are looking at right now is the single greatest "magic trick" in video game history—and the exact reason Classic WoW still looks amazing 20+ years later while running at 300+ FPS.
+
+---
+
+### 1. Breakdown of What's Actually in Your Screenshot
+Almost **every single detail** you see is a **100% flat 2D painting** glued onto a super simple 15-triangle wooden box:
+
+* **The Bookshelf (Left):** There are **ZERO 3D books**! The shelf is literally just a hollow box on 4 chunky trapezoid feet. Every leaning book, every spine, the dark shadows behind the books, and the beveled wood trim are **100% flat 2D paint** on a single flat plane.
+* **The Cabinet (Center):** Just a simple 6-sided tapered wedge. The carved doors, metal trim, hinges, and recessed shadows are **100% flat 2D paint**.
+* **The Windows (Right):** Just a flat inset rectangle on the wall. The wavy purple glass frames, glowing teal glass, and bright specular reflections are **100% flat 2D paint** (with a simple unlit/glow flag).
+* **The Floor & Walls:** Completely flat polygons. All the wood planks, knots, and cracks are **100% flat 2D paint**.
+
+---
+
+### 2. What Does Turning Settings to HIGH / ULTRA Change?
+**It does NOT add 3D geometry, normal maps, or bump maps!** Classic WoW (2004) had **zero** normal maps and **zero** PBR (roughness/metallic) shaders.
+
+Turning settings from **Low $\rightarrow$ High/Ultra** in this room ONLY changes 3 things:
+1. **Texture Sharpness (Mipmap Bias):** Low cuts the 256×256 or 512×512 hand-painted image down to 64×64 (blurry). High shows the full crisp hand-painted brushstrokes—still 100% flat!
+2. **Anisotropic Filtering (16x):** Keeps the flat wooden floorboards sharp far away instead of turning into blurry mush at low camera angles.
+3. **Real-Time Character Shadow:** Gives your Gnome a crisp shadow on the floor instead of a fuzzy blob.
+
+---
+
+### 3. Why This Is HUGE for Your Own Game (`enduvy`) & iPad Art
+Look closely at **why** this flat painting tricks your brain into thinking it's rich 3D:
+
+1. **Chunky Stylized Silhouettes (No Rigid Cubes):** Look at the cabinet and the bookshelf feet—nothing is a boring 90° Minecraft cube. Blizzard artists slightly taper, flare, and tilt the low-poly boxes so the *outline* feels handcrafted.
+2. **Painted-In Shadows (Baked Ambient Occlusion):** The artist painted dark brown/black shadows **directly under the shelf lips and in the corners of the texture**. Your brain reads that dark paint as real 3D depth!
+3. **Zero PBR Bloat:** Because you only need **ONE** flat hand-painted diffuse texture (no normal maps, no roughness maps, no 50,000-triangle ZBrush sculpts), **one solo developer drawing on an iPad** can build an entire lush 3D world that looks timeless and runs at 500 FPS!
+
+---
+
 *(Note: Archived for offline reference in `obs_portable_hardener`. Unabridged raw log available in `antigravity_archive`.)*
